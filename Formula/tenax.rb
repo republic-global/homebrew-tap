@@ -1,28 +1,28 @@
 class Tenax < Formula
   desc "Command-line for Tenax, Kubernetes database backups and point-in-time restore"
   homepage "https://tenax.run"
-  version "0.20.3"
+  version "0.21.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/republic-global/tenax-cli/releases/download/v0.20.3/tenax-darwin-arm64"
-      sha256 "b0533fbe853c3d1f3587f8fa82cd59242f52967f5a1f9ddd42687fb03f04eeb3"
+      url "https://github.com/republic-global/tenax-cli/releases/download/v0.21.0/tenax-darwin-arm64"
+      sha256 "4e0ad1aca5c8bb80f00b54878ae5642bd5c6fa4831b49249b6cb6e37c921d165"
     end
     on_intel do
-      url "https://github.com/republic-global/tenax-cli/releases/download/v0.20.3/tenax-darwin-amd64"
-      sha256 "32158985cec6d14d2b9e06c5d641ad8fd5d842d6a981c1fad3d82f570f11281d"
+      url "https://github.com/republic-global/tenax-cli/releases/download/v0.21.0/tenax-darwin-amd64"
+      sha256 "c44baf6a892e6487bff02cf9e70104e087338b65ec3cfdf106cf6e212386b777"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/republic-global/tenax-cli/releases/download/v0.20.3/tenax-linux-arm64"
-      sha256 "aeae61f9123d37212885793fa2719c5d8be05a8fdffcff77faae010f478f2cf2"
+      url "https://github.com/republic-global/tenax-cli/releases/download/v0.21.0/tenax-linux-arm64"
+      sha256 "50a0c4aac27833e119fe804b2fa0a6aaf94aa31d1c66932c7b73369f662e1f47"
     end
     on_intel do
-      url "https://github.com/republic-global/tenax-cli/releases/download/v0.20.3/tenax-linux-amd64"
-      sha256 "b593ca9a60a32f473c1b3d71a15e9b27cb0fb8954ef9b2861455c4e3524d3e5c"
+      url "https://github.com/republic-global/tenax-cli/releases/download/v0.21.0/tenax-linux-amd64"
+      sha256 "b4b7787bdd1dea9365f06d752c68086c9020edd248ea46de567a95d6dda49a31"
     end
   end
 
